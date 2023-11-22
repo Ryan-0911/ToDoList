@@ -3,7 +3,7 @@
   <ul class="todo-main">
     <TransitionGroup appear enter-active-class="animate__animated animate__backInLeft" leave-active-class="animate__animated animate__backOutRight">
       <Item v-for= "todoObj in todos" :key="todoObj.id" :todo="todoObj"></Item>
-</TransitionGroup>
+    </TransitionGroup>
   </ul>
 </template>
 
